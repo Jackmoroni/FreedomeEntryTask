@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-widget {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.swipe-container {
+    display: flex;
+    transition: transform 0.3s ease;  /* Transizione per lo swipe */
+}
+
+.widget {
+    min-width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.widget div {
+    font-size: 18px;
+    color: #666;
+}
+
+#hourly-data, #daily-data {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.weather-info {
+    font-size: 14px;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}

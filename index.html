@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget Meteo con Swipe</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Collega il file CSS -->
+</head>
+<body>
+
+    <div class="weather-widget">
+        <div class="swipe-container" id="swipe-container">
+            <!-- Widget Meteo Attuale -->
+            <div class="widget" id="current-weather">
+                <h2>Meteo Attuale</h2>
+                <div id="city">Caricamento...</div>
+                <div id="temperature">-- °C</div>
+                <div id="description">--</div>
+            </div>
+
+            <!-- Widget Previsioni 5 Ore -->
+            <div class="widget" id="hourly-weather">
+                <h2>Previsioni per le prossime 5 ore</h2>
+                <div id="hourly-data">Caricamento...</div>
+            </div>
+
+            <!-- Widget Previsioni 5 Giorni -->
+            <div class="widget" id="daily-weather">
+                <h2>Previsioni per i prossimi 5 giorni</h2>
+                <div id="daily-data">Caricamento...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Collega il file JavaScript -->
+
+</body>
+</html>
